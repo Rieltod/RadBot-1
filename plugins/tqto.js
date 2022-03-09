@@ -9,6 +9,8 @@ BIG THANKS TO
 ➸ Exc (membantu)
 ➸ Tio (membantu)
 ➸ Andrii(membantu)
+➸ Hanz(membantu)
+➸ 
 ➸ Penyedia Layanan API
 ➸ Org2 yg berdonasi
 `.trim(), watermark, 'Back', '.menu')
