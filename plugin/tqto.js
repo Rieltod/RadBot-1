@@ -4,13 +4,13 @@ BIG THANKS TO
 
 ➸ Allah S.W.T
 ➸ My Parent
-➸ LanXzy (Owner)
-➸ LynXzy (Bot)
+➸ Rielgans (owner)
+➸ RielXzy (Bot)
 ➸ Exc (membantu)
 ➸ Tio (membantu)
 ➸ Andrii(membantu)
 ➸ Hanz(membantu)
-➸ 
+➸ thanks untuk apikey freenya
 ➸ Penyedia Layanan API
 ➸ Org2 yg berdonasi
 `.trim(), watermark, 'Back', '.menu')
