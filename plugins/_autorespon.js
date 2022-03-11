@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'LynXzy tidak aktif' : banned ? 'kamu dibanned' : 'lagi sad ga ush ngetag',
-                '©LynXzy🥀   ?',
+                isBanned ? 'RielXzy tidak aktif' : banned ? 'kamu dibanned' : 'lagi sad ga ush ngetag',
+                '©RielXzy🥀   ?',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -29,16 +29,16 @@ handler.all = async function (m, { isBlocked }) {
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Minggu* :      *Rm 5.00*
-╠➥ *2 Minggu* : *Rm 10.00*
-╠➥ *3 Minggu* :   *Rm 15.00*
-╠➥ *1 Bulan* :        *Rm 20.00*
+╠➥ *1 Minggu* :      *Rp 5.000*
+╠➥ *2 Minggu* : *Rp 10.000*
+╠➥ *3 Minggu* :   *Rp 15.000*
+╠➥ *1 Bulan* :        *Rp 20.000*
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
-╠➥ TOPUP/PIN
-║- 60149431385 (Digi)
-║- 60189830350 (Umobile)
-╠═〘 LynXzy 〙 ═`.trim(), '©LynXzy🥀', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
+╠➥ PULSA ONLY
+║- 083813417529 (axis)
+║- 082146218274 (telkom)
+╠═〘 RielTxz 〙 ═`.trim(), '©RielXzy🥀', 'axis', '#viaaxis', 'Telkom', '#viatelkom', m)
 }
 
     // salam
